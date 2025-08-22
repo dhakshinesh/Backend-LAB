@@ -1,0 +1,3 @@
+Hello from Node.js streams!
+This is some more content.
+End of file.
