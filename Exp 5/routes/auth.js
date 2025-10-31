@@ -6,11 +6,6 @@ const router = express.Router();
 const users = []; // In-memory user storage (for demo)
 const SECRET_KEY = "mysecretkey"; // In real projects, use env variables
 
-// Registration
-router.post('/test', async (req, res) => {
-  res.json("Hello")
-});
-
 router.post('/register', async (req, res) => {
   const { username, password, role } = req.body;
   if (!username || !password)
